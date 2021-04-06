@@ -1,0 +1,201 @@
+/* htmltags */
+body{
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+      font-family: 'Montserrat';
+}
+
+h3{
+  font-weight: bold;
+    font-family: 'Montserrat-bold', sans-serif;
+      font-size: 2rem;
+}
+h2{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+
+
+/* ids */
+
+
+  /* title module */
+
+    #title{
+      margin: 0% 5% 0% 10% ;
+      text-align: left;
+    }
+
+    /* features */
+      #features{
+        background-color: white;
+
+        padding: 10% 0;
+        position: relative;
+        z-index: 1
+
+
+      }
+
+    /* testimonials */
+      #testimonials{
+
+        background-color:#ef8712;
+        color :white;
+        position: relative;
+        z-index: 1
+        }
+        /* testimonial carousel */
+        #carousel{
+              padding: 7% 15%;
+        }
+        #testibuttons{
+          background-color: #ef8712;
+          border: 0;
+        }
+    /* press */
+      #press{
+        background-color:#ef8712;
+
+        padding-bottom: 3%;
+      }
+
+    /* pricing */
+      #pricing{
+        margin: 10% 15% 3% 15% ;
+      }
+
+    /* call to action */
+      #cta{
+
+        background-color: #dc3545;
+
+          padding: 5% 15% 10% 15% ;
+      }
+
+    /* footer */
+      #footer{
+        padding-top: 5%;
+
+      }
+
+
+
+
+/* classes */
+
+  /* bootstrap class modifs */
+      .btn-lg{
+
+        padding: .5rem 1.5rem;
+        margin-right: 5% ;
+        }
+
+      .container-fluid{
+        padding: 0;
+        }
+
+      .card-body{
+;
+        }
+
+
+  /* navbar */
+    .navbar{         /* this is done to allign the title logo with the tagline*/
+      padding-left: 0;
+    }
+    .logo{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 3rem;
+      color: white;
+      padding-left: 0;
+    }
+  /* title */
+
+    .title{
+      width:100%;
+      background-color:#dc3545;
+      padding-bottom: 5%;
+
+    }
+    .tagline{
+      padding-top: 15%;
+      font-family: 'Montserrat', sans-serif;
+      color:white;
+      font-size: 3.5rem;
+      line-height: 1.5;
+    }
+    .button-div{
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
+
+    .kukka{
+      transform: rotate(30deg);
+      width: 55%;
+      position:absolute;
+    }
+    /* to ensure the website doesn't look wierd at smaller viewports and devices */
+      @media (max-width:1100px){
+        .kukka{
+          position:static;
+          transform: rotate(0deg);
+
+        }
+
+
+      }
+      @media(max-width:770px){
+        .tagline{
+          text-align: center;}
+        .kukkacell{
+          text-align: center;
+        }
+      }
+  /* Features */
+    .icon{
+      color:#ef8712;
+      }
+    .icon:hover{
+      color:#ec4646;
+      }
+
+
+    .description{
+      color:grey;
+      }
+  /* testimonials */
+    .testimonial-kukka{
+      width:10%;
+      border-radius: 100%;
+      margin: 20px;
+      }
+
+  /* press */
+    .presslogo{
+      width:15%;
+      margin:20px 35px 15px;
+      }
+
+
+  /* pricing */
+    .pricing-col{
+      padding: 3% 2%;
+      }
+  /* call to action */
+  .ctatext{
+
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 5%;
+  }
+  /* footer */
+    .image{
+      padding-left: 2%;
+      padding-bottom:  2%;
+      }
