@@ -135,7 +135,7 @@ h2{
 
     .kukka{
       transform: rotate(30deg);
-      width: 55%;
+      width: 30%;
       position:absolute;
     }
     /* to ensure the website doesn't look wierd at smaller viewports and devices */
